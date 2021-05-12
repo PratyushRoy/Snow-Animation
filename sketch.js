@@ -28,7 +28,7 @@ function setup() {
     world = engine.world;
     
    
-    snowman=new Snowman(1200,10,300,300)
+    snowman=new Snowman(800,10,300,300)
     snowball=new Snowball(400,330,30,30)
     sling=new Sling(snowball.body,{x:400, y:450})
     ground=new Ground(670,620,1400,30)
